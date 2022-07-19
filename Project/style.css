@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 2%;
+}
+
+.title-header{
+    text-align: center;
+}
+
+.section-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-reliable{
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+
+.title-powered{
+    color: hsl(234, 12%, 34%);
+}
+
+.div-pair-our{
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.pair-our{
+    color: hsl(229, 6%, 66%);
+    font-size: 14px;
+}
+
+.title-calculator, .title-team-builder, .title-karma, .title-supervisor{
+    font-size: 22px;
+    color: hsl(234, 12%, 34%);
+}
+
+.div-pair-supervisor, .div-pair-team-builder, .div-pair-calculator, .div-pair-karma{
+    margin-bottom: 2rem;
+}
+
+.pair-supervisor, .pair-karma, .pair-team-builder, .pair-calculator{
+    font-size: 14px;
+    color: hsl(229, 6%, 66%);
+}
+
+.row-supervisor{
+    border-top: solid 4px hsl(212, 86%, 64%);
+    padding: 1.5rem;
+    box-shadow: 5px 5px 10px 5px hsl(0, 0%, 88%, 60%);
+    border-radius: .5rem .5rem .5rem .5rem;
+}
+
+.div-team-builder{
+    border-top: solid 4px hsl(0, 78%, 62%);
+    padding: 1.5rem;
+    margin-left: 2.5rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 5px 5px 10px 5px hsl(0, 0%, 88%, 60%);
+    border-radius: .5rem .5rem .5rem .5rem;
+}
+
+.div-karma{
+    border-top: solid 4px hsl(34, 97%, 64%);
+    padding: 1.5rem;
+    margin-left: 2.5rem;
+    box-shadow: 5px 5px 10px 5px hsl(0, 0%, 88%, 60%);
+    border-radius: .5rem .5rem .5rem .5rem;
+}
+
+.row-calculator{
+    border-top: solid 4px hsl(180, 62%, 55%);
+    padding: 1.5rem;   
+    margin-left: 2.5rem; 
+    box-shadow: 5px 5px 10px 5px hsl(0, 0%, 88%, 60%);
+    border-radius: .5rem .5rem .5rem .5rem;
+}
+
+.image-supervisor, .image-calculator, .image-team-builder, .image-karma{
+    margin-left: 15rem;
+}
+
+@media only screen and (max-width:1164px){
+    .section-main{
+        flex-direction: column;
+    }
+
+    .div-team-builder, .div-karma, .row-calculator{
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+}
